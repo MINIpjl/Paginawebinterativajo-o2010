@@ -1,1 +1,4 @@
-# Paginawebinterativajo-o2010
+body {
+    color:rgb(0, 11, 75);
+    background
+}
