@@ -11,7 +11,7 @@ hearder {
     color: rgb(9, 0, 11);
 }
 .chamada   {
-    background: rgba(246, 1, 9, 1)
+    background: rgba(246, 1, 9, 1);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
