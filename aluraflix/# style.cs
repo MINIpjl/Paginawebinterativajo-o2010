@@ -1,58 +1,81 @@
 body {
-    color:rgb(0, 11, 75);
-    background:rgb(0, 255, 149);
+    color: purple;
+    background: blueviolet;
     margin: 0px;
-    font-family:Georgia, 'Times New Roman' , Times, serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-hearder {
-    border-bottom: solid 2xp rgb(42, 122, 228);
+header {
+    border-bottom: solid 2px black(42, 122, 228);
     padding: 20px;
     font-size: 32px;
-    color: rgb(9, 0, 11);
-
+    color: red(212, 42, 228);
 }
-.chamada   {
-    background: rgba(246, 1, 9, 1);
-    padding-bottom: 80px;
-    padding-top: 80px;
-    display: flex;
-    justify-content: center;
+.chamada {
+background: rgb(184, 156, 213);
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center; }
+.chamada-texto {
+margin-right: 5%; }
+h1{font-size: 40px; }
+p{ font-size: 20;}
+
+body {
+color: blue;
+background: rgb(0, 255, 149);
+margin: 0px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header {
+border-bottom: solid 2px rgb(42, 122, 228);
+padding: 20px;
+font-size: 32px;
+color: rgb(42, 122, 228);
+}
+.chamada {
+background: rgb(184, 156, 213);
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
 }
 
 .chamada-texto {
-    margin:5%;
+margin-right: 5%;
 }
 
-h1{font-size:40px;
-}
-p{font-size:20px;
+h1{font-size: 40px;
 
+}
+p{ font-size: 20px;
+_
 }
 img {
-    height:200px;
-
+height: 200px;
 
 }
+
 .categoria-videos {
-    display: flex;
-    overflow:auto;
-    gap:10px;
+display: flex;
+overflow-x: auto;
+gap: 10px;
 
 }
 .categoria {
 padding-left: 20px;
-padding-right:20px;
+padding-right: 20px;
+}
+.categoria-videos img {
+opacity: 0.5;
+height: 200px;
+margin-top: 50px;
 }
 
-categoria-vídeos img{
-     opacity: 0.5;
-     height: 200px;
-     margin-top: 50pc;
+.categoria-videos img:hover {
+opacity: 1.0;
+border: 3px solid green;
 }
 
-
-
-.categoria-vídeos img:hover {
-     opacity: 1.0;
-     border:3px solid darkblue
-}
+.categoria h2 {
+color: rgb(42, 122, 228);
