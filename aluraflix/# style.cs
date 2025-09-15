@@ -9,6 +9,7 @@ hearder {
     padding: 20px;
     font-size: 32px;
     color: rgb(9, 0, 11);
+
 }
 .chamada   {
     background: rgba(246, 1, 9, 1);
@@ -39,6 +40,19 @@ img {
 
 }
 .categoria {
-    padding-left: 20px;
-    padding-right:20px;
+padding-left: 20px;
+padding-right:20px;
+}
+
+categoria-vídeos img{
+     opacity: 0.5;
+     height: 200px;
+     margin-top: 50pc;
+}
+
+
+
+.categoria-vídeos img:hover {
+     opacity: 1.0;
+     border:3px solid darkblue
 }
